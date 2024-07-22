@@ -26,6 +26,7 @@ class ver
             }).GetAwaiter().GetResult();
             JObject json = JObject.Parse(responseBody);
             string latestClientVersion = json["LatestClientVersion"]?.ToString();
+            latestClientVersion = "1.47.291161";
             Console.WriteLine("LatestClientVersion: " + latestClientVersion);
 
             if (!Directory.Exists(versionDirectory))

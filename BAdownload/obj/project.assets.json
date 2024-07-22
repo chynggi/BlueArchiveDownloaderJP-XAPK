@@ -4920,24 +4920,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1100853\\.nuget\\packages\\": {}
+    "C:\\Users\\chyng\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1100853\\Desktop\\BA\\BAdownloadRE\\BAdownload\\BAdownload.csproj",
+      "projectUniqueName": "O:\\BlueArchiveDownloaderJP\\BAdownload\\BAdownload.csproj",
       "projectName": "BAdownload",
-      "projectPath": "C:\\Users\\1100853\\Desktop\\BA\\BAdownloadRE\\BAdownload\\BAdownload.csproj",
-      "packagesPath": "C:\\Users\\1100853\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1100853\\Desktop\\BA\\BAdownloadRE\\BAdownload\\obj\\",
+      "projectPath": "O:\\BlueArchiveDownloaderJP\\BAdownload\\BAdownload.csproj",
+      "packagesPath": "C:\\Users\\chyng\\.nuget\\packages\\",
+      "outputPath": "O:\\BlueArchiveDownloaderJP\\BAdownload\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\1100853\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\chyng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5012,7 +5020,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -5021,7 +5029,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net8.0' 還原了套件 'xxHashSharp 1.0.0'。此套件與您的專案並非完全相容。",
+      "message": "프로젝트 대상 프레임워크 'net8.0' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1'을(를) 사용하여 패키지 'xxHashSharp 1.0.0'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
       "libraryId": "xxHashSharp",
       "targetGraphs": [
         "net8.0"

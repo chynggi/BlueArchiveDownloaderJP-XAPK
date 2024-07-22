@@ -35,19 +35,19 @@ class APK
         
         try
         {
-            using (Process process = Process.Start(start))
-            {
-                using (StreamReader reader = process.StandardOutput)
-                {
-                    string result = reader.ReadToEnd();
-                    Console.WriteLine(result);
-                }
-            }
+            //using (Process process = Process.Start(start))
+            //{
+            //    using (StreamReader reader = process.StandardOutput)
+            //    {
+            //        string result = reader.ReadToEnd();
+            //        Console.WriteLine(result);
+            //    }
+            //}
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error: {ex.Message}");
         }
-        APKzip.zipMain(args);
+        APKver.verMain(args);
     }
 }
